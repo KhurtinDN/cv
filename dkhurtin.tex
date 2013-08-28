@@ -1,0 +1,116 @@
+\documentclass[10pt,a4paper]{moderncv}
+
+\moderncvstyle[purple]{classic}
+
+\usepackage[utf8]{inputenc}
+
+%\usepackage[unicode]{hyperref}
+%\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+%\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+% personal data (the given example is exhaustive; just give what you want)
+\firstname{Denis}
+\familyname{Khurtin}
+\title{Software Engineer}
+\address{Saratov, Russia}
+\phone{+7 927 059 3008}
+\email{KhurtinDN@gmail.com}
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.5,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+%\makequote
+
+\section{\textsc{Personal Information}}
+\cvitem{Date of Birth}{July 19, 1986}
+\cvitem{Marital Status}{Married}
+
+\section{\textsc{Education}}
+\cventry{2006 -- 2011}{Saratov State University}{Faculty of Computer Sciences and Information Technologies}{Department of Mathematical Cybernetics and Computer Science}{}{\hspace{\fill}}
+\cventry{2003 -- 2006}{Saratov College of Radioelectronics}{Department of Computers, Complexes, Systems and Networks}{}{}{}
+
+\section{\textsc{Additional Education}}
+\cvitem{Feb -- Dec 2010}{Java Software Development Course}{\newline}
+\cvitem{Feb -- Nov 2010}{System Programming on C/C++ Course}
+
+\section{\textsc{Work Experience}}
+\cventry{May 2011 -- Now}{\textbf{Software Engineer}}{Grid Dynamics}{}{}{
+- Web services (SOAP, REST) \newline
+- Big Data cluster administration (hadoop, hive, hbase) \newline
+- Development of Hadoop Map/Reduce applications (java, python) and workflow scripts (bash, python) \newline
+- Deployment of Hadoop cluster from CDH4 via chef (HDFS-HA, MRv1-HA, hive, sqoop, oozie, nagios, ganglia) \newline
+- Development of Behavior Analytics Starter Kit (AWS, Qubell, Hadoop, Apache Mahout)
+}
+\cventry{Sep 2006 -- May 2011}{\textbf{Senior Laboratory Assistant}}{Saratov State University}{}{}{
+- Development UI in the System "Dean's Office" \newline
+- Development Security of System "Dean's Office" \newline}
+
+\section{\textsc{OpenSource Projects}}
+\cvline{Behavior Analytic Starter Kit}{\url{https://github.com/griddynamics/Behavior-Analytic-Starter-Kit}\newline{}
+  Start point to implement a recommendation engine (Java/Broadleaf/Apache Hadoop/Apache Mahout)
+}
+\cvline{Granite}{\url{https://github.com/INOC-IT/Granite}\newline{}
+  Web Application for Dean's Office (Java/Spring/Hibernate/ExtGWT/iText)
+}
+\cvline{Admission Department}{\url{https://github.com/KhurtinDN/AdmissionDepartment}\newline{}
+  GUI Application for Admission Department (Java/Swing/Spring/Hibernate/Apache POI)
+}
+
+\section{\textsc{Languages}}
+\cvitem{Russian}{Native}
+\cvitem{English}{Pre-Intermediate}
+
+\closesection{}
+\pagebreak{}
+
+\section{\textsc{Professional Skills}}
+
+\newline
+\cvline{}{\textbf{Programming Languages:}}
+  \cvline{Main}{Java}
+  \cvline{Secondary}{Python}
+  \cvline{Third}{C/C++, Ruby/JRuby, Groovy, Bash}
+  \cvline{Basic knowledge}{JavaScript (jQuery, ExtJS), Perl, PHP, Lisp/Scheme, Pascal/Delphi, Assembler}
+\newline
+\cvline{}{\textbf{Java Frameworks and Tools:}}
+  \cvline{Common libraries and frameworks}{Hadoop Map/Reduce, Spring, Hibernate, Google Guava, Apache commons libs and other}
+  \cvline{Testing}{JUnit/TestNG, Hamcrest, Mockito/Powermock, JBehave}
+  \cvline{Build systems and package management}{Apache Maven 2/3}
+  \cvline{Code Quality}{PMD, FindBugs, Sonar}
+\newline
+\cvline{}{\textbf{Python Frameworks and Tools:}}
+  \cvline{Common libraries and frameworks}{Jinja2}
+  \cvline{Testing}{Unittest2/Nose, PyHamcrest, mock/mox}
+  \cvline{Build systems and package management}{pip, setuptools}
+  \cvline{Enviroments}{virtualenv}
+  \cvline{Code Quality}{pep8, pylint, coverage}
+\newline
+\cvline{}{\textbf{Development and CI/CD Tools:}}
+  \cvline{IDE}{IntelliJ Idea (Java/Python/Ruby/bash), Eclipse (Java/C/C++), QtCreator(C/C++)}
+  \cvline{Text Editors}{vim, Sublime, emacs}
+  \cvline{VCS}{git, svn}
+  \cvline{Build Servers}{Jenkins/Hudson}
+  \cvline{Bug Trackers}{Jira, Redmine}
+  \cvline{Documentation}{Confluence, GitHub wiki (Markdown), Google Docs, Latex, JavaDoc}
+\newline
+\cvline{}{\textbf{Deployment and Ops Tools:}}
+  \cvline{Configuration Management}{Opscode Chef}
+  \cvline{Monitoring}{Nagios, Ganglia}
+\newline
+\cvline{}{\textbf{Other:}}
+  \cvline{OS}{GNU/Linux, MS Windows}
+  \cvline{Databases}{HBase, h2, PostgreSQL, MySQL, Sqlite}
+  \cvline{Web}{HTML/CSS, XML, json, GWT/ExtGWT, JavaScript}
+  \cvline{GUI}{QT (C++), PyQt (Python), Swing (Java)}
+
+\section{\textsc{Public Activity}}
+  \cvline{LinkedIn}{\url{http://www.linkedin.com/pub/denis-khurtin/31/9bb/55}}
+  \cvline{GitHub}{\url{https://github.com/KhurtinDN}}
+
+\end{document}
